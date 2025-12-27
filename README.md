@@ -1,2 +1,2 @@
 # Final Title
-# Web에서 파일 추가
+## 기여 방법
