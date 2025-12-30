@@ -1,0 +1,10 @@
+cities = [
+    {"name": "서울", "population": 9700000},
+    {"name": "부산", "population": 3400000},
+    {"name": "인천", "population": 2900000},
+    {"name": "대구", "population": 2400000}
+]
+
+sorted_cities = sorted(cities, key=lambda x: x["population"])
+
+print([c["name"] for c in sorted_cities])
